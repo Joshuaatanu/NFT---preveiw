@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Joshuaatanu/NFT---preveiw)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://638b30ca3acec70d4f4dadd9--snazzy-zuccutto-57af84.netlify.app/)
 
 ## My process
 
