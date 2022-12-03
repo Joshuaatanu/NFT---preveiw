@@ -1,0 +1,12 @@
+db.products.insertOne({
+    _id: 4,
+    name : "Eraser",
+    price : 1.70,
+    reviews : [
+        {
+            authorName : "Lisa",
+            rating : 5,
+            review : "Beautiful Catalog"
+        }
+    ] 
+})

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+@font-face {
+    font-family: Poppins;
+    src: url(../font/Poppins-Regular.ttf);
+}
+
+* {
+    /* font-family: 'Outfit', sans-serif;*/
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: Poppins;
+}
+
+p {
+    font-size: 18px;
+}
+
+.container {
+    box-shadow:0 2px 10px hsl(215, 38%, 15%) ;
+    width: 400px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    padding: 25px;
+    padding-top: 25px;
+    margin-top:100px;
+
+
+}
+
+.img-container {
+    background-image: url(../images/image-equilibrium.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+
+
+
+}
+.my-link:focus{
+    background-image: #00FFF8;
+}
+.my-img {
+    background-image: url(../images/image-equilibrium.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    padding: 10px;
+    height: 350px;
+    width: 350px;
+    
+
+}
+.my-img:active{
+    background-color: #00fff771;
+}
+
+h3 {
+    margin-top: 25px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.p {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.eth-price {
+    color: hsl(178, 100%, 50%);
+    margin-left: 2%;
+
+    font-weight: 400;
+}
+
+.time {
+    color: hsl(215, 51%, 70%);
+    ;
+    margin-left: 43%;
+    margin-top: 5%;
+}
+
+hr {
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+
+}
+
+.horizontal-line {
+
+    width: 100px;
+}
+@media only  screen and (max-width: 769px){
+    body{
+        padding-top:50px;
+        padding:25px;
+    }
+    .container{
+        margin-top:25px;
+    }
+}
+
+.text-white{
+    color:white;
+}
+.profile-picture{
+    border-radius: 100%;
+    border: 2px solid white;
+    width: 39px;
+}
+.ml-custom{
+    margin-left:15px;
+}
